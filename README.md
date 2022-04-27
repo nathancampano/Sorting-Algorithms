@@ -9,7 +9,8 @@
 
 ### **Data Structure: Sorting Algorithm**
 
-"Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information.....Here is what it is.....text information....."
+orting algorithms can be seen as a quintessential part of data structures. A sorting algorithm rearranges data elements within an array or list in accordance with a comparison operator. The comparison operator determines why certain elements are in the new order within a data structure. In essence, sorting algorithms are methods to reorganize data sets or items into a specific order. Such orders consist of numerical values of high to low, distance between shortest to longest, or alphabetical order. The process in which the algorithm analyzes a data set by taking in a list of items as input data, reads it, and performs a specific operation based on the type of sorting algorithm used. After the operation is performed on the list of data, it is outputted as an ordered array. Sorting algorithms are used in numerous applications including but not limited to organizing medical documents, ecommerce and retail pricing, entertainment programming based on view time and engagements, determining relevant search engine results, and operational research.
+ 
 
 ### **File Descriptions**
 
@@ -20,18 +21,43 @@
 - it does this
 - it does this 
 
-
-The CmpSpMfile directory stores matrices in compressed form.
-
 ---
 
 #### 2. xxx-file
 
 "File contains function that does this..."
 
---
+---
 
-### **How to Compile and Run**
+### **Methods**
+
+#### 1. Read Function 
+
+---
+
+#### 2. Write Function 
+
+---
+
+#### 3. Insertion Sort Function
+
+---
+
+#### 3. Quick Sort Function
+
+---
+
+#### 3. Merge Sort Function
+
+---
+
+#### 3. Stooge Sort Function
+
+
+
+
+
+### **Implementation: How to Compile and Run**
 
 "$$$$Sample text: This project does not use a GUI, instead it relies on command line arguments for input and will spit out .txt files as an output.  Download the project, create a .txt file containing the sorting you are using into the SpMfile directory.  Now just update the main functions of COO.cpp and LlL.cpp to take in however many CLAs you want and what you want the to do with the lists that are created.""
 
