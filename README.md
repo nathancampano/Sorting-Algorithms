@@ -31,13 +31,13 @@ Sorting algorithms can be seen as a quintessential part of data structures. A so
 
 ### **Methods**
 
-#### 1. Read Function 
+#### 1. Print Vector Function 
 
----
+This function was simply used by our group in order to print an array of whatever size input we put in manually or from a text file. This can be seen at the completion of our code since we either output the sorted data to a text file or we just display the data before running and after running, unsorted vs. sorted. 2
 
-#### 2. Write Function 
+#### 2.  Inssetion Sort Function 
 
----
+ The first sorting function we implemented into our program was the insertion sort function. We chose this as our first due to the ability to easily understand what is happening throughout the entire sorting process. To implement this specific type into our code we knew we had to, of course, include a method of tracking our runtime for the algorithm which resulted in our group using the <chrono> library. Specifically, we used the steady_clock function which represents a monotonic clock, a clock whose time points only increase and where the time between ticks is constant, making it the most suitable for measuring intervals. We then did the actual sorting by looking at the demo provided from lecture and building off that in our own way by instead using a while loop within our for loop. This function ends, which you’ll notice in the other sorts as well, by ending the clock, printing out the new sorted vector, and providing us with many different variables of speed starting from nanoseconds to seconds.
 
 #### 3. Insertion Sort Function
 
