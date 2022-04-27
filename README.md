@@ -43,16 +43,17 @@ orting algorithms can be seen as a quintessential part of data structures. A sor
 
 ---
 
-#### 3. Quick Sort Function
+#### 4. Quick Sort Function
 
 ---
 
-#### 3. Merge Sort Function
+#### 5. Merge Sort Function
 
 ---
 
-#### 3. Stooge Sort Function
+#### 6. Stooge Sort Function
 
+---
 
 
 
