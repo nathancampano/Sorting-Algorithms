@@ -22,14 +22,14 @@ void StoogeSortAlgo(vector<int> &empWorkLoads);
 int main() {
 	int number;
 	cout << "Welcome!"<<endl;
-	cout << "The application is about to sort data of employees hours worked.\nYou will enter the data in constant loop manner, you can exit by entering -1."<<endl;
+	cout << "The application will sort data of sales made by a company on a number of days."<<endl;
 
 	while (true) {
 		char choice;
 		vector<int> empWorkLoads;
 		int count = 1;
 
-		cout << "Do you want to load data from text file or enter manually? enter f to get data from file or m for manual processing." << endl;
+		cout << "Enter 'f' to import data from a file or 'm' to manually input data.\n (When manually entering data use '-1' when finished)" << endl;
 		cin >> choice;
 
 		if (choice=='f' || choice=='F') {
@@ -51,7 +51,7 @@ int main() {
 		}
 		else {
 			while (true) {
-				cout << "\nEnter work load of employee " << count << " : ";
+				cout << "\nEnter sales made on day " << count << " : ";
 				cin >> number;
 				
 				if (number < 0) {
@@ -63,7 +63,7 @@ int main() {
 		}
 		
 		int algoChoice;
-		cout << "Please choose an algorithm to sort the data" << endl;
+		cout << "Please choose which algorithm you would like to sort the data:" << endl;
 		cout << "1. Merge Sort." << endl << "2. Insertion Sort." << endl << "3. Quick Sort." << endl << "4. Stooge Sort." << endl;
 		cin >> algoChoice;
 
@@ -90,7 +90,7 @@ int main() {
 		}
 
 		char _continue;
-		cout << "\n\nDo you want to continue? [y/n]";
+		cout << "\n\nWould you want to add more data? [y/n]";
 		cin >> _continue;
 
 		if (_continue == 'n' || _continue == 'N')
@@ -243,7 +243,7 @@ void StoogeSort(vector<int> &v, int start, int end) {
 
 //Save vector elements into file
 void saveVectorToFile(vector<int> &v) {
-	cout << "\nDo you want to save sorted array into file?[y/n]" << endl;
+	cout << "\n Would you like to export the sorted array into a file?[y/n]" << endl;
 	char saveChoice;
 	cin >> saveChoice;
 
