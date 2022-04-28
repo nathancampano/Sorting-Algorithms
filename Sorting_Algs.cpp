@@ -22,7 +22,7 @@ void StoogeSortAlgo(vector<int> &empWorkLoads);
 int main() {
 	int number;
 	cout << "Welcome!"<<endl;
-	cout << "The application will sort data of sales made by a company on a number of days."<<endl;
+	cout << "The application will sort sales data made by a company on a given number of days."<<endl;
 
 	while (true) {
 		char choice;
