@@ -106,7 +106,7 @@ void PrintVector(vector<int> empLoads) {
 
 	for (i = 0; i < empLoads.size(); i++)
 		cout << empLoads.at(i) << " ";
-	
+	cout << endl;
 }
 
 /* Function to sort vector using insertion sort*/
@@ -195,6 +195,7 @@ void MergeSort(vector<int> &v, int s, int e) {
 		MergeSortedIntervals(v, s, m, e);
 	}
 }
+
 // last element is taken as pivot
 int Partition(vector<int> &v, int start, int end) {
 	int pivot = end;
@@ -242,7 +243,7 @@ void StoogeSort(vector<int> &v, int start, int end) {
 
 //Save vector elements into file
 void saveVectorToFile(vector<int> &v) {
-	cout << "\n Do you want to save sorted array into file? [y/n]" << endl;
+	cout << "\nDo you want to save sorted array into file?[y/n]" << endl;
 	char saveChoice;
 	cin >> saveChoice;
 
@@ -266,11 +267,9 @@ void MergeSortAlgo(vector<int> &empWorkLoads, int count) {
 	PrintVector(empWorkLoads);
 
 	cout << "\nAfter Sorting" << endl;
-
 	auto start = chrono::steady_clock::now();
 	MergeSort(empWorkLoads, 0, count - 1);
 	auto end = chrono::steady_clock::now();
-
 	PrintVector(empWorkLoads);
 
 	cout << "Elapsed time in nanoseconds: "
@@ -294,12 +293,11 @@ void MergeSortAlgo(vector<int> &empWorkLoads, int count) {
 void QuickSortAlgo(vector<int> &empWorkLoads) {
 	cout << "Before Sorting" << endl;
 	PrintVector(empWorkLoads);
-	cout << "\nAfter Sorting" << endl;
 
+	cout << "\nAfter Sorting" << endl;
 	auto start = chrono::steady_clock::now();
 	Quicksort(empWorkLoads, 0, empWorkLoads.size() - 1);
 	auto end = chrono::steady_clock::now();
-
 	PrintVector(empWorkLoads);
 
 	cout << "Elapsed time in nanoseconds: "
@@ -324,12 +322,11 @@ void QuickSortAlgo(vector<int> &empWorkLoads) {
 void StoogeSortAlgo(vector<int> &empWorkLoads) {
 	cout << "Before Sorting" << endl;
 	PrintVector(empWorkLoads);
-	cout << "\nAfter Sorting" << endl;
 
+	cout << "\nAfter Sorting" << endl;
 	auto start = chrono::steady_clock::now();
 	StoogeSort(empWorkLoads, 0, empWorkLoads.size() - 1);
 	auto end = chrono::steady_clock::now();
-
 	PrintVector(empWorkLoads);
 
 	cout << "\nElapsed time in nanoseconds: "
