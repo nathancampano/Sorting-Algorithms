@@ -14,18 +14,12 @@ Sorting algorithms can be seen as a quintessential part of data structures. A so
 
 ### **File Descriptions**
 
-#### 1. xxx-file & directories 
+#### 1. Sorting_Algs.cpp
 
 "This file is..."
 - it does this
 - it does this
 - it does this 
-
----
-
-#### 2. xxx-file
-
-"File contains function that does this..."
 
 ---
 
